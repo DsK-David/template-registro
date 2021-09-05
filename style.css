@@ -1,0 +1,72 @@
+body {
+    font-size: 15pt;
+    font-family: sans-serif;
+    background: url("BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+        color:white;
+}
+.box{
+        padding: 6px 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: none;
+        text-align: center;
+}
+.nome,.idade,.password{
+        background: none;
+        color:white;
+        border:2px solid #29A133;
+        border-radius: 24px;
+        padding: 9px 0px;
+        display: block;
+        margin:0px auto;
+        border: 40;
+        outline: none;
+        transition: 0.25s;
+        text-align: center;
+}
+.nome:focus,.idade:focus,.password:focus{
+        width: 300px;
+        border-color:   #08B4E3 ;
+
+}
+.bpn{
+        border-radius:24px;
+        width: 150px;
+        padding: 6px 0;
+        background: none;
+        color:white;
+        border:2px solid #08B4E3;
+        cursor:pointer;
+        outline: none;
+        height: 50px;
+}
+.bpn:focus{
+        border-color:black;
+        width: 200px;
+        height: 50px;
+}
+.bpn:hover{
+        background: #00FFB1;
+}
+.nome::placeholder,.idade::placeholder,.password::placeholder{
+        color: wheat;
+}
+#res1,#res2{
+        color:white;
+        background: red;
+}
+small{
+        font-family:monospace;
+        font-size:15px;
+        position:absolute;
+        right:0;
+        bottom:15px;
+        color:red;
+}
